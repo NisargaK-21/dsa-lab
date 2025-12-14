@@ -12,7 +12,7 @@ class Stack{
         top=-1;
      }
 
-     void push(char element){
+     void push(int element){
          if(top>=MAX-1){
             cout<<"Stack Overflow"<<endl;
          }
